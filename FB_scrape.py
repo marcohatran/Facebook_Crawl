@@ -2,7 +2,7 @@
 import pandas as pd
 from datetime import datetime
 
-groupLists=['FactlyIndia','TimsFactCheck','QuintFactCheck']
+groupLists=['FactlyIndia','TimesFactCheck','QuintFactCheck']
 fb_data=[] 
 dateTime = datetime.now()
 fileName = 'data_fb_'+str(dateTime)+'.csv'
