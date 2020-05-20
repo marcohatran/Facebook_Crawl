@@ -1,6 +1,7 @@
 !pip install facebook-scraper
 import pandas as pd
 from datetime import datetime,timedelta
+from facebook_scraper import get_posts
 
 groupLists=['FactlyIndia','TimesFactCheck','QuintFactCheck']
 duration = datetime.today() - timedelta(days=7)
